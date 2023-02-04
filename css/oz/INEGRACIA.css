@@ -1,0 +1,10 @@
+@media screen and (max-width: 462px){
+    .title-block-title{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 379px){
+    .title-block-title{
+        font-size: 15px;
+    }
+}

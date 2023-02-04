@@ -1,0 +1,27 @@
+@media screen and (max-width: 552px){
+    .title-block-title {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 452px){
+    .title-block-title {
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 400px){
+    .title-block-title {
+        font-size: 20px;
+        display: block;
+        text-align: center;
+        padding-left: 70px;
+    }
+}
+@media screen and (max-width: 340px){
+    .title-block-title {
+        font-size: 15px;
+        width: 80%;
+        display: block;
+        text-align: center;
+        padding-left: 70px;
+    }
+}
