@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <!-- form fields -->
+        <div class="captcha-container">
+          <div id="captcha"></div>
+          <button id="captcha-btn">Refresh</button>
+        </div>
+        <input type="text" name="captcha-input">
+        <button type="submit">Submit</button>
+      </form>
+
+      <script>
+        // generate random captcha text
+const randomText = () => Math.random().toString(36).substring(7);
+
+// set captcha text and add event listener to refresh button
+const captchaContainer = document.querySelector(".captcha-container");
+const captcha = document.querySelector("#captcha");
+const captchaBtn = document.querySelector("#captcha-btn");
+captcha.textContent = randomText();
+captchaBtn.addEventListener("click", () => {
+  captcha.textContent = randomText();
+});
+
+// validate form submission
+const form = document.querySelector("form");
+form.addEventListener("submit", (event) => {
+  const input = document.querySelector("[name='captcha-input']").value;
+  if (input !== captcha.textContent) {
+    event.preventDefault();
+    alert("Captcha does not match, please try again.");
+  }
+});
+      </script>
+</body>
+</html>
