@@ -1,0 +1,165 @@
+.text-napelne{
+    padding: 0;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.tn{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+.text-info-napelne{
+    padding-bottom: 20px;
+}
+
+.text-info-zod{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@media screen and (max-width: 850px){
+    .text-cetelem{
+        margin-top: -250px;
+    }
+}
+@media screen and (max-width: 802px){
+    .text-cetelem{
+        margin-top: -150px;
+    }
+}
+@media screen and (max-width: 610px){
+    .text-cetelem{
+        margin-top: -50px;
+    }
+}
+@media screen and (max-width: 610px){
+    .text-cetelem{
+        margin-top: 60px;
+    }
+}
+
+.email, .name {
+    float: none;
+    width: 100%;
+}
+@media screen and (max-width: 455px){
+    .text-oper{
+        margin-top: 60px;
+    }
+}
+@media screen and (max-width: 699px){
+    .text-viac{
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 455px){
+    .text-viac{
+        margin-top: 80px;
+    }
+    .text-pobyty{
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    .title-block-title-urok{
+        width: 90%;
+    }
+    .text-promo-urok-text{
+        padding-top: 0;
+    }
+}
+@media screen and (max-width: 455px){
+    .text-promo-urok-text{
+        padding-top: 120px;
+    }
+}
+@media screen and (max-width: 521px){
+    .text-promo-urok-text-bottom{
+        padding-top: 60px;
+    }
+}
+@media screen and (max-width: 400px){
+    .text-promo-urok-text-bottom{
+        padding-top: 30px;
+    }
+}
+.cetellem-photo{
+    padding-bottom: 0;
+}
+.text-promo-urok{
+    padding-top: 20;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper-prjanilk{
+    display: flex;
+    padding-top: 37px;
+}
+.text-promo-prjanik-text{
+    padding-top: 30px;
+}
+@media screen and (max-width: 1142px){
+    .wrapper-prjanilk{
+        flex-direction: column;
+    }
+    .text-promo-prjanik-text-top{
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 850px){
+    .cetelem20{
+        display: block;
+        margin-top: -100px;
+    }
+}
+@media screen and (max-width: 455px){
+    .cetelem20{
+        display: block;
+        margin-top: 20px;
+    }
+}
+
+
+@media screen and (max-width: 850px){
+    .text-promo-uvery{
+        padding-top: 0;
+        margin-top: -120px;
+    }
+}
+@media screen and (max-width: 698px){
+    .text-promo-uvery{
+        padding-top: 0;
+        margin-top: -70px;
+    }
+}
+@media screen and (max-width: 568px){
+    .text-promo-uvery{
+        padding-top: 0;
+        margin-top: -30px;
+    }
+    .text-promo-uvery2{
+        padding-top: 20px;
+    }
+}
+@media screen and (max-width: 455px){
+    .text-promo-uvery{
+        padding-top: 0;
+        margin-top: 90px;
+    }
+}

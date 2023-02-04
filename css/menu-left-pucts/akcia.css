@@ -1,0 +1,28 @@
+.akcia{
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@media screen and (max-width: 850px){
+    .text-info-zdravia{
+        margin-top: -200px;
+    }
+}
+@media screen and (max-width: 670px){
+    .text-info-zdravia{
+        margin-top: -100px;
+    }
+}
+@media screen and (max-width: 455px){
+    .text-info-zdravia{
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 383px){
+    .text-info-zdravia{
+        margin-top: 50px;
+    }
+}

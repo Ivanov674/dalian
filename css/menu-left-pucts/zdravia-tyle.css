@@ -1,0 +1,35 @@
+.text-info-zdravia{
+    padding-top: 50px;
+}
+.wrapper-photo-info-zdr{
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text-promo{
+    padding-top: 50px;
+}
+.por{
+    display: block;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width: 718px){
+    .title-block-title{
+        width: 70%;
+    }
+    .wrapper-photo-info-zdr{
+        flex-direction: column-reverse;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 70%;
+        margin: auto;
+    }
+    .por{
+        padding-left: 20px;
+        padding-right: 20px;
+        width: 97%;
+    }
+} 

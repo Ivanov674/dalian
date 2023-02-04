@@ -1,0 +1,9 @@
+.text-ine{
+    padding-top: 300px;
+}
+@media screen and (max-width: 700px){
+    .text-ine{
+        padding-top: 100px;
+    }
+}
+

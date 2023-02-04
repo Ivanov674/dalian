@@ -1,0 +1,11 @@
+.zodpov{
+    display: block;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@media screen and (max-width: 455px){
+    .text-info-zod{
+        margin-top: 70px;
+    }
+}

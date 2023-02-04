@@ -1,0 +1,20 @@
+@media screen and (max-width: 850px){
+    .text-info-kazko1{
+        margin-top: -200px;
+    }
+}
+@media screen and (max-width: 646px){
+    .text-info-kazko1{
+        margin-top: -100px;
+    }
+}
+@media screen and (max-width: 475px){
+    .text-info-kazko1{
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 455px){
+    .text-info-kazko1{
+        margin-top: 80px;
+    }
+}

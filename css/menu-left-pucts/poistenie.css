@@ -1,0 +1,29 @@
+.text-promo{
+    padding-top: 100px;
+}
+.link-pzp{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    width: 40%;
+}
+@media screen and (max-width: 729px){
+    .link-pzp{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 729px){
+    .text-poistenia{
+        padding-top: 0;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 455px){
+    .text-poistenia{
+        padding-top: 150px;
+    }
+}
+@media screen and (max-width: 403px){
+    .link-pzp{
+        width: 80%;
+    }
+}
