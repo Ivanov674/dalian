@@ -1,0 +1,72 @@
+.title-credit{
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 60px;
+    letter-spacing: 0.17em;
+    color: #3F3C3C;
+}
+.line1, .line2{
+    background-color: #000000;
+}
+
+
+
+
+
+
+button.accordion-credit {
+    border: none;
+    background: none;
+    outline: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 50px;
+    letter-spacing: 0.15em;
+    color: #000000;
+    cursor: pointer;
+    display: flex;
+    transition: background-color 0.2s linear;
+    text-align: left;
+  }
+  button.accordion-credit:hover,
+  button.accordion-credit.is-open,
+  button.accordion-credit.line-accardeon.is-open {
+    text-decoration: underline;
+  }
+  button.accordion-credit.is-open{
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color:#797777;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    color: #fff;
+  }
+
+  .accordion-content-credit {
+    background-color: white;
+    padding: 0 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-height: 0;
+    overflow: hidden;
+    font-size: 20px;
+    transition: max-height 0.2s ease-in-out;
+  }
+
+
+  

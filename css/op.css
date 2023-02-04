@@ -1,0 +1,65 @@
+body, html{
+   margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+.op{
+    margin-top: 80px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ .op a{
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+.op a:hover{
+    text-decoration: underline;
+}
+.op p{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.op ul,  .op li{
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 424px){
+    .op{
+        margin-top: 80px;
+        margin-bottom: 30px;
+        padding-left: 0px;
+        padding-right: 50px;
+        font-style: 15px;
+
+    }
+     .op a{
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        margin-top: 20px;
+
+    }
+    .op p{
+
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 20px;
+        margin: 0;
+    }
+    .op ul,  .op li{
+        list-style-type: none;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 0;
+    }
+  }
